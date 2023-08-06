@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Agência de Viagens Recode</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <!--Inicio do navbar-->
+        <!--Inicio do navbar-->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <div class="container-fluid">
+    
+            <a class="navbar-brand" href="index.html">
+              <img src="imagens/logo.png" width="30%" hspace="10"></a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+    
+            </button>
+            <div class="justify-content-end text-center collapse navbar-collapse" id="navbarNav">
+              
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="destino.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="promocoes.html">Promoções</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contato.html">Contato</a>
+                </li>
+    
+              </ul>
+            </div>
+          </div>
+        </nav>
+    <!--Fim do navbar-->
+    <br>
+    <!--Inicio do formulário-->
+    <h4 style="text-align: center; padding: 10px; margin-bottom: 2%; background-image: linear-gradient(to right,LightSkyBlue, DarkSlateBlue)">Fale conosco</h4>
+    
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="validationDefault01" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="validationDefault01" value="Letícia" required>
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault02" class="form-label">Sobrenome</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Souza" required>
+      </div>
+
+      
+      <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">Estado</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Acre</option>
+          <option>Bahia</option>
+          <option>Espírito Santo</option>
+          <option>Maranhão</option>
+          <option>Minas Gerais</option>
+          <option>Pernambuco</option>
+          <option>Rio de Janeiro</option>
+          <option>Santa Catarina</option>
+          <option>São Paulo</option>         
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault05" class="form-label">CEP</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+      
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Digite seu e-mail: </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Sua mensagem:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Enviar uma cópia para meu e-mail
+          </label>
+        </div>
+      </div>
+      <div style="margin-bottom: 20px;" class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+    </form>
+    
+
+    
+    
+      <div class="container-fluid" style="text-align: center;background-image: linear-gradient(to right,LightSkyBlue, DarkSlateBlue); height: 50px">
+        <strong>₢ Agencia de Viagens Recode Pro</strong>
+        <p>Desenvolvido por Letícia Souza - 2023</p>
+      </div>
+    
+    
+
+  </div>
+
+
+  <br>
+
+
+</body>
+
+</html>
